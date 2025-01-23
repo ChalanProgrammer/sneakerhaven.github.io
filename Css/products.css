@@ -1,0 +1,100 @@
+/* Averia Serif Libre ront */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Bayon Font */
+@font-face {
+    font-family: Bayon;
+    src: url(/fonts/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf);
+}
+/* Header for every webpage */
+
+body {
+    margin: 0px;
+
+}
+
+#sneaker_haven {
+    margin-top: 0px;
+    padding-left: 20px; 
+}
+
+header {
+    background-color: #483C32;
+    height: 100px;
+}
+
+#left_header {
+    font-size: 40px;
+    align-items: flex-start;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
+#nav_for_header {
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+#link_1 {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    color: white;
+}
+
+#contacts {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
+
+#link_2 {
+    position: absolute;
+    right: 450px;
+    top: 0px;
+}
+
+#products {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
+#link_3 {
+    position: absolute;
+    right: 800px;
+    top: 0px;
+}
+
+#homepage {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
+#sneaker_left_haven {
+    padding-left: 60px;
+}
+/* End of header CSS */
+
+#products_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    grid-row-gap: 200px;
+    padding-top: 300px;
+}
+
+.shoe_text {
+    font-size: 50px;
+    text-align: center;
+}
+
+.pay_text {
+    font-size: 35px;
+    text-align: center;
+}

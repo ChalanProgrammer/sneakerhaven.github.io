@@ -1,3 +1,11 @@
+/* Averia Serif Libre ront */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Bayon Font */
+@font-face {
+    font-family: Bayon;
+    src: url(/fonts/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf);
+}
 /* Header for every webpage */
 
 body {
@@ -11,13 +19,15 @@ body {
 }
 
 header {
-    background-color: grey;
+    background-color: #483C32;
     height: 100px;
 }
 
 #left_header {
     font-size: 40px;
     align-items: flex-start;
+    color: white;
+    font-family: Averia Serif Libre;
 }
 
 #nav_for_header {
@@ -30,9 +40,15 @@ header {
     position: absolute;
     right: 100px;
     top: 0px;
-    
-
+    color: white;
 }
+
+#contacts {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
 
 #link_2 {
     position: absolute;
@@ -40,10 +56,22 @@ header {
     top: 0px;
 }
 
+#products {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
+}
+
 #link_3 {
     position: absolute;
     right: 800px;
     top: -40px;
+}
+
+#homepage {
+    text-decoration: none;
+    color: white;
+    font-family: Averia Serif Libre;
 }
 
 #sneaker_left_haven {
@@ -56,16 +84,19 @@ header {
     text-align: end;
     padding-right: 200px;
     margin-bottom: 20px;
+    font-family: Averia Serif Libre;
+    color: white;
 }
 
 #span_homepage {
-    background-color: grey;
+    background-color: #6A7B59;
     padding-right: 10px;
     padding-left: 150px;
+    padding-bottom: 5px;
 }
 
 #welcome_box {
-    background-color: grey;
+    background-color: #483C32;
     position: absolute;
     right: 150px;
     padding-left:100px;
@@ -73,25 +104,37 @@ header {
     padding-top: 0px;
 }
 
-#in_line {
+#welcome_paragraph {
+    font-family: bayon;
+}
+
+#welcome_paragraph {
     font-size: 60px;
     margin-bottom: 0px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0px;
+    color: white;
 }
+
+#welcome_paragraph_line_2 {
+    font-weight: bolder;
+    font-size: 55px;
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+}
+
 
 #line_1 {
     width: 270px;
     size: 50px;
     height: 7.5px;
-    background-color: black;
-    border: 0px solid black;
+    background-color: white;
+    border: 0px solid white;
     position: absolute;
     right: 50px;
-}
-
-#welcome_line_2 {
-    font-weight: bolder;
 }
 
 #kickin {
@@ -99,16 +142,18 @@ header {
     text-align: end;
     margin-bottom: 10px;
     margin-top: 15px;
+    color: white;
 }
 
 #slogan_container {
-    background-color: grey;
+    background-color: #6A7B59;
     position: absolute;
     right: 150px;
     top: 470px;
     padding-left: 25px;
     padding-right: 25px;
     max-width: 300px;
+    margin-top: 30px;
 }
 
 #line_2 {
@@ -116,8 +161,8 @@ header {
     left: 20px;
     width: 270px;
     height: 10px;
-    border: 1px solid black;
-    background-color: black;
+    border: 1px solid white;
+    background-color: white;
 }
 
 #slogan {
@@ -125,4 +170,60 @@ header {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 25px;
+    color: white;
+}
+
+@media screen and (max-width: 393px) {
+    #nav_for_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+        position: relative;
+    }
+    #left_header {
+        display: none;
+    }
+    #contacts {
+        font-size: 10px;
+        position: relative;
+    }
+    #products {
+        font-size: 20px;
+        position: relative;
+    }
+    #homepage {
+        font-size: 20px;
+        position: relative;
+    }
+    #link_1 {
+        position: relative
+    }
+    #link_2 {
+        position: relative
+    }
+    #link_3 {
+        position: relative
+    }
+    #container_homepage {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #title {
+        font-size: 10px;
+    }
+    header {
+        height: fit-content;
+    }
+
+    hr {
+        display: none;
+    }
+    #welcome_box {
+        background-color: #483C32;
+        position: relative;
+        padding: 0px;
+    }
+    #slogan {
+        font-size: 16px;
+    }
 }
