@@ -87,6 +87,7 @@ header {
     height: 100vh;
     grid-row-gap: 200px;
     padding-top: 300px;
+    margin-top: 200px;
 }
 
 .shoe_text {
@@ -98,3 +99,49 @@ header {
     font-size: 35px;
     text-align: center;
 }
+
+ #eleven_blue_pic{
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+
+#eleven_cherry_pic {
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+
+#eleven_pantone_pic {
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+
+#j1_satin_shadow_pic {
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+
+#j1_uniblue_pic {
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+
+#j1_varred_pic {
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #483C32;
+    margin-left: 40px;
+}
+

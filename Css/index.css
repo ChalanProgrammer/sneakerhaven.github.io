@@ -1,4 +1,4 @@
-/* Averia Serif Libre ront */
+/* Averia Serif Libre font */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /* Bayon Font */
@@ -33,13 +33,12 @@ header {
 #nav_for_header {
     display: flex;
     font-size: 40px;
-    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #link_1 {
-    position: absolute;
-    right: 100px;
-    top: 0px;
     color: white;
 }
 
@@ -82,10 +81,21 @@ header {
 #title {
     font-size: 50px;
     text-align: end;
-    padding-right: 200px;
     margin-bottom: 20px;
     font-family: Averia Serif Libre;
     color: white;
+}
+
+#container_homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 #span_homepage {
@@ -97,15 +107,11 @@ header {
 
 #welcome_box {
     background-color: #483C32;
-    position: absolute;
-    right: 150px;
+    display: flex;
+    justify-content: flex-end;
     padding-left:100px;
     padding-right: 100px;
     padding-top: 0px;
-}
-
-#welcome_paragraph {
-    font-family: bayon;
 }
 
 #welcome_paragraph {
@@ -114,6 +120,7 @@ header {
     text-align: center;
     margin-top: 0px;
     color: white;
+    font-family: bayon;
 }
 
 #welcome_paragraph_line_2 {
@@ -133,8 +140,6 @@ header {
     height: 7.5px;
     background-color: white;
     border: 0px solid white;
-    position: absolute;
-    right: 50px;
 }
 
 #kickin {
@@ -147,9 +152,6 @@ header {
 
 #slogan_container {
     background-color: #6A7B59;
-    position: absolute;
-    right: 150px;
-    top: 470px;
     padding-left: 25px;
     padding-right: 25px;
     max-width: 300px;
@@ -157,8 +159,6 @@ header {
 }
 
 #line_2 {
-    position: absolute;
-    left: 20px;
     width: 270px;
     height: 10px;
     border: 1px solid white;
@@ -173,57 +173,8 @@ header {
     color: white;
 }
 
-@media screen and (max-width: 393px) {
-    #nav_for_header {
-        display: flex;
-        flex-direction: row;
-        align-items: center ;
-        position: relative;
-    }
-    #left_header {
-        display: none;
-    }
-    #contacts {
-        font-size: 10px;
-        position: relative;
-    }
-    #products {
-        font-size: 20px;
-        position: relative;
-    }
-    #homepage {
-        font-size: 20px;
-        position: relative;
-    }
-    #link_1 {
-        position: relative
-    }
-    #link_2 {
-        position: relative
-    }
-    #link_3 {
-        position: relative
-    }
-    #container_homepage {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #title {
-        font-size: 10px;
-    }
-    header {
-        height: fit-content;
-    }
+img {
+    max-width: 500px;
+    max-height: 500px;
 
-    hr {
-        display: none;
-    }
-    #welcome_box {
-        background-color: #483C32;
-        position: relative;
-        padding: 0px;
-    }
-    #slogan {
-        font-size: 16px;
-    }
 }

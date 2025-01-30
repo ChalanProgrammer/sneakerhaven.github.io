@@ -1,3 +1,4 @@
+
 /* Averia Serif Libre ront */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
@@ -10,7 +11,7 @@
 
 body {
     margin: 0px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 #sneaker_haven {
@@ -80,35 +81,38 @@ header {
 /* End of header CSS */
 
 #contact_container {
-    position: absolute;
-    right: 600px;
-    top: 175px;
     background-color: grey;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-top: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #contact_title {
     font-size: 50px;
     margin: 10px;
+    width: 500px;
+
 }
 
 #page_container {
     display: flex;
-    position: absolute;
-    bottom: 100px;
-    justify-content: space-between
+    margin-top: 50px;
+    justify-content: center;
+    height: 100vh;
+    
 }
 
 #text {
    border: 4px black solid;
    margin-left: 100px;
    margin-right: 50px;
+   width: 530px;
+   height: 300px;
 }
 
 h1 {
     text-align: center;
-    padding-top: 50px;
 }
 
 #paragraph_1 {
@@ -118,6 +122,8 @@ h1 {
 
 #text_2 {
     border: 4px black solid;
+    width: 530px;
+    height: 300px;
 }
 
 #paragraph_2 {
@@ -127,13 +133,21 @@ h1 {
 
 #button {
     border: 2px black solid;
-    position: absolute;
-    top: 240px;
-    left: 150px;
+    font-size: 20px;
+    max-width: 400px;
+    margin-left: 40px;
+    margin-bottom: 100px
+
 }
 
 #button_2 {
-    position: absolute;
-    top: 220px;
-    right: 85px;
+
+}
+
+img {
+    max-width: 530px;
+    max-height: 75px;
+    margin-bottom: 0px;
+    width: 530px;
+    height: 75px;
 }
