@@ -92,7 +92,6 @@ header {
     font-size: 50px;
     margin: 10px;
     width: 500px;
-
 }
 
 #page_container {
@@ -150,4 +149,5 @@ img {
     margin-bottom: 0px;
     width: 530px;
     height: 75px;
+    border-radius: 10px;
 }
